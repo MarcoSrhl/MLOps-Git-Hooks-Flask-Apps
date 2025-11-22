@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 
@@ -6,7 +6,7 @@ app = Flask(__name__)
 items = []
 
 def count_words(text: str) -> int:
-    """function that returns the number of words in the input text for unit testing purposes."""
+    """Returns the number of words in the input text."""
     if not text or not isinstance(text, str):
         return 0
     return len(text.split())
