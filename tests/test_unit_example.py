@@ -11,3 +11,6 @@ def test_count_words_empty_or_invalid():
     assert count_words("") == 0
     assert count_words(None) == 0
     assert count_words("   ") == 0
+
+def test_ci_should_fail():
+    assert 1 == 2
