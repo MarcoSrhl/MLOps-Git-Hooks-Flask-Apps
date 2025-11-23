@@ -74,7 +74,7 @@ All data is stored in an in-memory list.
 
 ## 2. Linting (Ruff)
 Ruff is used to check code style and formatting.  
-The configuration is defined in `ruff.toml`.
+The configuration is defined in `pyproject.toml`.
 
 ## 3. Testing (Pytest)
 Two kinds of tests were added under the `tests/` directory:
